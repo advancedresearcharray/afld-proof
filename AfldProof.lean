@@ -11,3 +11,6 @@ import AfldProof.DimensionalSeparation
 import AfldProof.CompressionPipeline
 import AfldProof.VerificationBridge
 import AfldProof.WeightedProjection
+import AfldProof.MetaTheorem15D
+import AfldProof.DerivedCategory
+import AfldProof.InformationFlowComplexity

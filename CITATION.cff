@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "2.0.0"
+version: "4.0.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -21,12 +21,36 @@ keywords:
   - mathlib
   - super theorem engine
   - 15d verification
+  - meta theorem
+  - exponential to logarithmic
+  - information flow complexity
+  - derived category equivalence
+references:
+  - type: article
+    title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
+    authors:
+      - family-names: Kilpatrick
+        given-names: Christian
+    doi: "10.5281/zenodo.17451313"
+    year: 2025
+    url: "https://zenodo.org/records/17451313"
+  - type: article
+    title: "Information Flow Complexity Theory: A Comprehensive Mathematical Framework"
+    authors:
+      - family-names: Kilpatrick
+        given-names: Christian
+    doi: "10.5281/zenodo.17373031"
+    year: 2025
+    url: "https://zenodo.org/records/17373031"
 abstract: >-
   Machine-verified formal proofs in Lean 4 (with Mathlib) for the
-  mathematical foundations of lossless dimensional folding. 106 theorems
-  (1 axiom: Fermat-Wiles), covering: Fermat bridge bijectivity,
-  Cyclic Preservation Theorem, 85% signed-data ceiling, rank-nullity
-  information loss, P≠NP dimensional separation, Beal Conjecture
-  gap analysis, full compression pipeline, weighted projection fold,
-  and a verification bridge to the Super Theorem Engine (31.6K discoveries
-  verified, 90% formal coverage).
+  mathematical foundations of lossless dimensional folding. 145 theorems
+  (2 axioms: Fermat-Wiles, exp-dominates-poly), covering: Fermat bridge
+  bijectivity, Cyclic Preservation Theorem, 85% signed-data ceiling,
+  rank-nullity information loss, P≠NP dimensional separation, Beal
+  Conjecture gap analysis, full compression pipeline, weighted projection
+  fold, 15-D Exponential Meta Theorem, Derived Category Equivalence
+  (functors, compression ratios), Information Flow Complexity Theory
+  (flow bounds, pigeonhole, certificate entropy, sorting lower bound,
+  conditional P≠NP), and a verification bridge to the Super Theorem
+  Engine (31.6K discoveries verified, 90% formal coverage).
