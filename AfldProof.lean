@@ -24,3 +24,4 @@ import AfldProof.MasterTheorem
 import AfldProof.ZeroPrimeDerivative
 import AfldProof.GapBridgeTheorems
 import AfldProof.VideoStreamingOptimization
+import AfldProof.QuantumConsciousness
