@@ -28,3 +28,4 @@ import AfldProof.QuantumConsciousness
 import AfldProof.NuclearPhysicsFolding
 import AfldProof.NetworkThroughput
 import AfldProof.PatternOptimization
+import AfldProof.UltraHighCompression
