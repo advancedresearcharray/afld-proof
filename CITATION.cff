@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.5.0"
+version: "5.6.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -57,6 +57,11 @@ keywords:
   - bekenstein entropy
   - holographic principle
   - ligo predictions
+  - master theorem
+  - recurrence relations
+  - algorithm analysis
+  - divide and conquer
+  - asymptotic complexity
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"

@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**284 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**304 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -30,6 +30,7 @@ lossless dimensional folding, as implemented in
 | E=mc² Dimensional Embeddings | `Emc2DimensionalEmbeddings.lean` | Proved |
 | Cube Space Design (15D) | `CubeSpaceDesign.lean` | Proved |
 | Unified Quantum Gravity | `QuantumGravity.lean` | Proved |
+| Master Theorem (Algorithm Analysis) | `MasterTheorem.lean` | Proved |
 
 ## Key Results
 
@@ -101,7 +102,8 @@ AfldProof/
 ├── DatabaseDimensionalFolding.lean — Database 940D→15D folding: speedup, collapse, accuracy
 ├── Emc2DimensionalEmbeddings.lean — E=mc² 15D embeddings: invariant, scaling, curvature
 ├── CubeSpaceDesign.lean          — Cube Space: 15D coordinates, 15D→3D projection, quantum boost
-└── QuantumGravity.lean           — Quantum gravity: emergent metric, info preservation, singularity
+├── QuantumGravity.lean           — Quantum gravity: emergent metric, info preservation, singularity
+└── MasterTheorem.lean            — Master Theorem: recurrence analysis, Case 1/2/3, classic algos
 ```
 
 ## Super Theorem Engine Bridge
@@ -279,6 +281,23 @@ Axiom: von Neumann entropy non-negativity (standard quantum axiom).
 See: [Unified Quantum Gravity](https://zenodo.org/records/17994803)
 (DOI: 10.5281/zenodo.17994803)
 
+### Master Theorem — Algorithm Analysis (Discovery #4523945)
+
+Formal proof of the Master Theorem applied to engine discovery #4523945:
+T(n) = 9·T(n/3) + Θ(n^1.5). 20 theorems covering:
+
+- **log_3(9) = 2**: verified via 3^2 = 9 and Nat.log
+- **Case 1 determination**: c = 1.5 < 2 = log_b(a), gap = 0.5
+- **Solution**: T(n) = Θ(n²) — quadratic complexity
+- **Leaf domination**: 3^3 < 9^2 proves 3^1.5 < 9 (integer squaring trick)
+- **Branching factor**: a/b^c ≈ 1.732 > 1 (geometric growth)
+- **Case exhaustiveness**: trichotomy on c vs log_b(a)
+- **Classic algorithms**: merge sort (Case 2), binary search (Case 2),
+  Strassen (Case 1), naive matrix multiply (Case 1), Karatsuba (Case 1)
+- **Discovery instantiation**: all parameters validated, Case 1 confirmed
+
+Zero axioms, zero sorry.
+
 ## References
 
 - Kilpatrick, C. (2025). *15-D Exponential Meta Theorem*. Zenodo. DOI: [10.5281/zenodo.17451313](https://zenodo.org/records/17451313)
@@ -289,6 +308,7 @@ See: [Unified Quantum Gravity](https://zenodo.org/records/17994803)
 - Kilpatrick, C. (2026). *Computational Validation of E=mc² Dimensional Embeddings*. Zenodo. DOI: [10.5281/zenodo.18679011](https://zenodo.org/records/18679011)
 - Kilpatrick, C. (2026). *Cube Space Design: A Universal N-Dimensional Coordinate System*. Zenodo. DOI: [10.5281/zenodo.18143028](https://zenodo.org/records/18143028)
 - Kilpatrick, C. (2025). *Unified Quantum Gravity Theory Through Emergent Spacetime*. Zenodo. DOI: [10.5281/zenodo.17994803](https://zenodo.org/records/17994803)
+- Cormen, T. H. et al. *Introduction to Algorithms* (Master Theorem, Ch. 4).
 - Kilpatrick, C. (2026). *Warp Drive Number Theory*.
 - Kilpatrick, C. (2026). *Information Flow Complexity*.
 - [libdimfold](https://github.com/djdarmor/libdimfold) — C implementation.
