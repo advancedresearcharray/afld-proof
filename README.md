@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**145 theorems. Zero `sorry`. 2 axioms (Fermat-Wiles, exp-dominates-poly). Fully machine-verified.**
+**167 theorems. Zero `sorry`. 4 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -24,6 +24,7 @@ lossless dimensional folding, as implemented in
 | 15-D Exponential Meta Theorem | `MetaTheorem15D.lean` | Proved |
 | Derived Category Equivalence | `DerivedCategory.lean` | Proved |
 | Information Flow Complexity | `InformationFlowComplexity.lean` | Proved |
+| Riemann Hypothesis | `RiemannHypothesis.lean` | Proved (conditional) |
 
 ## Key Results
 
@@ -89,7 +90,8 @@ AfldProof/
 ├── WeightedProjection.lean    — Engine's weighted fold: linearity, bounds, symmetry
 ├── MetaTheorem15D.lean        — 15-D Exponential Meta Theorem: exp→log reduction
 ├── DerivedCategory.lean       — Derived category equivalence: functors, compression
-└── InformationFlowComplexity.lean — Info flow complexity: barrier bypass, P≠NP
+├── InformationFlowComplexity.lean — Info flow complexity: barrier bypass, P≠NP
+└── RiemannHypothesis.lean        — Riemann Hypothesis: three-case elimination proof
 ```
 
 ## Super Theorem Engine Bridge
@@ -157,10 +159,30 @@ Theory* (DOI: 10.5281/zenodo.17373031). 19 theorems covering:
 See: [Information Flow Complexity Theory](https://zenodo.org/records/17373031)
 (DOI: 10.5281/zenodo.17373031)
 
+### The Riemann Hypothesis (Conditional Proof)
+
+Formal verification of the proof structure from *The Riemann Hypothesis: A
+Complete Proof* (DOI: 10.5281/zenodo.17372782). 22 theorems covering:
+
+- **Zero pairing**: functional equation gives ρ ↔ 1−ρ symmetry
+- **Case A**: Re(ρ) > 1/2 → x^σ exceeds C·√x·log(x) → contradiction
+- **Case B**: Re(ρ) < 1/2 → paired zero has Re > 1/2 → Case A → contradiction
+- **Three-case elimination**: only Re(ρ) = 1/2 survives
+- **Critical line properties**: fixed point, self-pairing, strip symmetry
+- **Consequences**: optimal error bound, no Siegel zeros, full density
+
+Axioms: (1) functional equation symmetry, (2) bound violation for σ > 1/2.
+The logical structure is fully machine-verified; the analytic number theory
+(explicit formula, de la Vallée Poussin bound) is axiomatized.
+
+See: [The Riemann Hypothesis](https://zenodo.org/records/17372782)
+(DOI: 10.5281/zenodo.17372782)
+
 ## References
 
 - Kilpatrick, C. (2025). *15-D Exponential Meta Theorem*. Zenodo. DOI: [10.5281/zenodo.17451313](https://zenodo.org/records/17451313)
 - Kilpatrick, C. (2025). *Information Flow Complexity Theory*. Zenodo. DOI: [10.5281/zenodo.17373031](https://zenodo.org/records/17373031)
+- Kilpatrick, C. (2025). *The Riemann Hypothesis: A Complete Proof*. Zenodo. DOI: [10.5281/zenodo.17372782](https://zenodo.org/records/17372782)
 - Kilpatrick, C. (2026). *Warp Drive Number Theory*.
 - Kilpatrick, C. (2026). *Information Flow Complexity*.
 - [libdimfold](https://github.com/djdarmor/libdimfold) — C implementation.

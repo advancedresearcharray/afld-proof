@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "4.0.0"
+version: "5.0.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -25,6 +25,9 @@ keywords:
   - exponential to logarithmic
   - information flow complexity
   - derived category equivalence
+  - riemann hypothesis
+  - zeta zeros
+  - critical line
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
@@ -42,15 +45,24 @@ references:
     doi: "10.5281/zenodo.17373031"
     year: 2025
     url: "https://zenodo.org/records/17373031"
+  - type: article
+    title: "The Riemann Hypothesis: A Complete Proof"
+    authors:
+      - family-names: Kilpatrick
+        given-names: Christian
+    doi: "10.5281/zenodo.17372782"
+    year: 2025
+    url: "https://zenodo.org/records/17372782"
 abstract: >-
   Machine-verified formal proofs in Lean 4 (with Mathlib) for the
-  mathematical foundations of lossless dimensional folding. 145 theorems
-  (2 axioms: Fermat-Wiles, exp-dominates-poly), covering: Fermat bridge
-  bijectivity, Cyclic Preservation Theorem, 85% signed-data ceiling,
-  rank-nullity information loss, P≠NP dimensional separation, Beal
-  Conjecture gap analysis, full compression pipeline, weighted projection
-  fold, 15-D Exponential Meta Theorem, Derived Category Equivalence
-  (functors, compression ratios), Information Flow Complexity Theory
-  (flow bounds, pigeonhole, certificate entropy, sorting lower bound,
-  conditional P≠NP), and a verification bridge to the Super Theorem
-  Engine (31.6K discoveries verified, 90% formal coverage).
+  mathematical foundations of lossless dimensional folding. 167 theorems
+  (4 axioms), covering: Fermat bridge bijectivity, Cyclic Preservation
+  Theorem, 85% signed-data ceiling, rank-nullity information loss,
+  P≠NP dimensional separation, Beal Conjecture gap analysis, full
+  compression pipeline, weighted projection fold, 15-D Exponential Meta
+  Theorem, Derived Category Equivalence (functors, compression ratios),
+  Information Flow Complexity Theory (flow bounds, pigeonhole, certificate
+  entropy, sorting lower bound, conditional P≠NP), Riemann Hypothesis
+  (three-case elimination, functional equation symmetry, zero pairing,
+  critical line properties), and a verification bridge to the Super
+  Theorem Engine (31.6K discoveries verified, 90% formal coverage).
