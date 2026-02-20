@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**588 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**606 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -41,6 +41,7 @@ lossless dimensional folding, as implemented in
 | Ultra-High Compression (10³⁶) | `UltraHighCompression.lean` | Proved |
 | Universal Dimensional Completeness | `UniversalDimensionalCompleteness.lean` | Proved |
 | Advanced Propulsion Systems | `AdvancedPropulsion.lean` | Proved |
+| Framework Linking 15D ↔ 1000yr Math | `FrameworkLinking15D.lean` | Proved |
 
 ## Key Results
 
@@ -123,7 +124,8 @@ AfldProof/
 ├── PatternOptimization.lean       — Pattern Optimization: 5 pattern types, 2ⁿ→nᵏ, quadrant deduction, 250M× speedup
 ├── UltraHighCompression.lean      — Ultra Compression: 2.57×10³⁶ ratio, 10EB→4KB, 99.99% cost, O(n log n)
 ├── UniversalDimensionalCompleteness.lean — UDC Law: 9 fields × 10 dims, R_ct(d)=3+0.3d, R²=1.0
-└── AdvancedPropulsion.lean            — Propulsion: warp drives, wormholes, ion (12000s), fusion (10⁵s)
+├── AdvancedPropulsion.lean            — Propulsion: warp drives, wormholes, ion (12000s), fusion (10⁵s)
+└── FrameworkLinking15D.lean           — 15D super-theorem ↔ 1000-yr math, 16 properties, gen 1.8B+
 ```
 
 ## Super Theorem Engine Bridge

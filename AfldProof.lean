@@ -31,3 +31,4 @@ import AfldProof.PatternOptimization
 import AfldProof.UltraHighCompression
 import AfldProof.UniversalDimensionalCompleteness
 import AfldProof.AdvancedPropulsion
+import AfldProof.FrameworkLinking15D

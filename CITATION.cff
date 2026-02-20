@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.16.0"
+version: "5.17.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -123,6 +123,10 @@ keywords:
   - fusion engine
   - specific impulse
   - faster than light
+  - framework linking
+  - 15D super theorem
+  - 1000 year math
+  - information spacetime coupling
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
