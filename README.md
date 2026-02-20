@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**626 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**648 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -43,6 +43,7 @@ lossless dimensional folding, as implemented in
 | Advanced Propulsion Systems | `AdvancedPropulsion.lean` | Proved |
 | Framework Linking 15D ↔ 1000yr Math | `FrameworkLinking15D.lean` | Proved |
 | Bit-Level Solution Bridging (gap closure) | `BitLevelSolutionBridging.lean` | Proved |
+| Basel Problem + Euler-Maclaurin Acceleration | `BaselConvergence.lean` | Proved |
 
 ## Key Results
 
@@ -127,7 +128,8 @@ AfldProof/
 ├── UniversalDimensionalCompleteness.lean — UDC Law: 9 fields × 10 dims, R_ct(d)=3+0.3d, R²=1.0
 ├── AdvancedPropulsion.lean            — Propulsion: warp drives, wormholes, ion (12000s), fusion (10⁵s)
 ├── FrameworkLinking15D.lean           — 15D super-theorem ↔ 1000-yr math, 16 properties, gen 1.8B+
-└── BitLevelSolutionBridging.lean     — Construct #4586760: bit-level bridge, gap closure, gen 1.88B
+├── BitLevelSolutionBridging.lean     — Construct #4586760: bit-level bridge, gap closure, gen 1.88B
+└── BaselConvergence.lean             — Basel Problem: Σ1/k²=π²/6, Euler-Maclaurin 5→16 digit accel
 ```
 
 ## Super Theorem Engine Bridge

@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.18.0"
+version: "5.19.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -131,6 +131,10 @@ keywords:
   - hardware gap closure
   - construct
   - genetic evolution
+  - basel problem
+  - euler maclaurin
+  - convergence acceleration
+  - series summation
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
