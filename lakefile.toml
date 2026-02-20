@@ -1,0 +1,15 @@
+name = "afld_proof"
+version = "0.1.0"
+defaultTargets = ["afld_proof"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+version = "git#master"
+
+[[lean_lib]]
+name = "AfldProof"
+
+[[lean_exe]]
+name = "afld_proof"
+root = "Main"
