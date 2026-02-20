@@ -25,3 +25,4 @@ import AfldProof.ZeroPrimeDerivative
 import AfldProof.GapBridgeTheorems
 import AfldProof.VideoStreamingOptimization
 import AfldProof.QuantumConsciousness
+import AfldProof.NuclearPhysicsFolding

@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**408 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**448 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -35,6 +35,7 @@ lossless dimensional folding, as implemented in
 | Gap Bridge Theorems (37D) | `GapBridgeTheorems.lean` | Proved |
 | Video Streaming Optimization (17D) | `VideoStreamingOptimization.lean` | Proved |
 | Quantum Consciousness (18D) | `QuantumConsciousness.lean` | Proved |
+| Nuclear Physics Folding (15D→7D) | `NuclearPhysicsFolding.lean` | Proved |
 
 ## Key Results
 
@@ -111,7 +112,8 @@ AfldProof/
 ├── ZeroPrimeDerivative.lean      — Zero-Prime Law: gap formula, RH consistency, L-function extension
 ├── GapBridgeTheorems.lean        — Gap Bridges: composition, triangle inequality, cascade, 37D optimality
 ├── VideoStreamingOptimization.lean — Video Streaming: Shannon capacity, buffer dynamics, ABR, GOP, QoE
-└── QuantumConsciousness.lean      — Quantum Consciousness: scaling law, Gaussian peak, SAT bridge, IIT
+├── QuantumConsciousness.lean      — Quantum Consciousness: scaling law, Gaussian peak, SAT bridge, IIT
+└── NuclearPhysicsFolding.lean     — Nuclear Physics 15D→7D: 99.27% preservation, 9421 experiments, SEMF scaling
 ```
 
 ## Super Theorem Engine Bridge
