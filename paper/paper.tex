@@ -26,7 +26,7 @@
 
 \title{Machine-Verified Dimensional Folding:\\
 From 940D Database Search to 3D Satellite Constellations\\[0.5em]
-\large 692 Lean~4 Theorems with Zero \texttt{sorry}}
+\large 796 Lean~4 Theorems with Zero \texttt{sorry}}
 
 \author{Christopher Kilpatrick\\
 Advanced Research Array\\
@@ -39,11 +39,12 @@ Advanced Research Array\\
 
 \begin{abstract}
 We present a comprehensive formal proof library in Lean~4 containing
-692 machine-verified theorems covering the mathematical foundations
-of lossless dimensional folding. The library spans 38 mathematical
+796 machine-verified theorems covering the mathematical foundations
+of lossless dimensional folding. The library spans 42 mathematical
 domains including information theory, number theory, quantum gravity,
-dark matter physics, satellite constellation geometry, and convergence
-acceleration. All theorems compile with zero \texttt{sorry} (unproven
+dark matter physics, satellite constellation geometry, convergence
+acceleration, proof-computation synthesis, and cross-domain dimensional
+studies. All theorems compile with zero \texttt{sorry} (unproven
 assertions) against Lean~4.29.0 with Mathlib. We demonstrate a
 self-reinforcing pipeline: discovery engines find new mathematical
 structures, formal proofs verify their properties, and the verified
@@ -54,9 +55,13 @@ compression pipeline with Fermat bridge cyclic re-encoding achieving
 linking between a 15-dimensional super-theorem and satellite
 constellation laws via $2^{12}=4096\times$ collapse; (3)~Euler-Maclaurin
 convergence acceleration improving the Basel partial sum from 5 to
-16 correct digits; and (4)~dark matter physics modeled as gravitational
-leakage from 42 hidden dimensions with $2^{42}\times$ collapse factor.
-The entire proof corpus is open-source under the MIT license.
+16 correct digits; (4)~dark matter physics modeled as gravitational
+leakage from 42 hidden dimensions with $2^{42}\times$ collapse factor;
+(5)~a 5-point evolutionary trajectory spanning 785M generations from
+generation 1.095B to 1.88B; and (6)~a 15D$\to$7D dimension study
+confirming $>$98.6\% preservation across nuclear physics, number
+theory, and statistics. The entire proof corpus is open-source under
+the MIT license.
 \end{abstract}
 
 \section{Introduction}
@@ -77,13 +82,14 @@ in Lean~4, a dependently-typed proof assistant with a verified kernel.
 The contribution is threefold:
 
 \begin{enumerate}
-\item \textbf{Proof corpus.} 692 theorems across 37 Lean source files,
+\item \textbf{Proof corpus.} 796 theorems across 42 Lean source files,
 covering the mathematical foundations of dimensional folding and its
 applications. Zero \texttt{sorry}, 6 explicitly declared axioms.
 
 \item \textbf{Performance boost pipeline.} Formally-verified results
-are compiled into C header-only libraries (UDC, ZPD, BLSB, EM, DM, SC,
-GC, CP) deployed across a distributed discovery array.
+are compiled into 12 C header-only libraries (UDC, ZPD, BLSB, EM, DM,
+SC, GC, CP, ET, PC, DS, DFB) deployed across a distributed discovery
+array with active hot-path integration.
 
 \item \textbf{Self-reinforcing loop.} Discovery engines use the boost
 libraries to find new mathematical structures, which are then formalized
@@ -128,12 +134,12 @@ arithmetic), \texttt{norm\_num} (numerical normalization),
 
 \section{Proof Corpus Overview}
 
-Table~\ref{tab:domains} summarizes the 38 mathematical domains
+Table~\ref{tab:domains} summarizes the 42 mathematical domains
 covered by the proof corpus.
 
 \begin{table}[h]
 \centering
-\caption{Domains covered by the 692-theorem proof corpus.}
+\caption{Domains covered by the 796-theorem proof corpus.}
 \label{tab:domains}
 \begin{tabular}{@{}lrl@{}}
 \toprule
@@ -152,11 +158,15 @@ Bit-level solution bridging & 20 & \texttt{BitLevelSolutionBridging} \\
 Basel convergence acceleration & 22 & \texttt{BaselConvergence} \\
 Dark matter physics (45D) & 22 & \texttt{DarkMatterPhysics} \\
 Satellite constellation linking & 22 & \texttt{SatelliteConstellationLinking} \\
+Early-generation bridge (1.24B) & 24 & \texttt{EarlyGenBridge} \\
+Proof-computation synthesis & 24 & \texttt{ProofComputeSynthesis} \\
+15D$\to$7D dimension study & 30 & \texttt{DimensionStudy} \\
+Earliest ancestor linking (1.095B) & 26 & \texttt{FrameworkLinkingEarly} \\
 Zero-prime derivative & $\sim$20 & \texttt{ZeroPrimeDerivative} \\
 Algorithm analysis (Master Theorem) & $\sim$20 & \texttt{MasterTheorem} \\
 Video streaming, network, pattern opt. & $\sim$60 & \texttt{Various} \\
 \midrule
-\textbf{Total} & \textbf{692} & \textbf{37 files} \\
+\textbf{Total} & \textbf{796} & \textbf{42 files} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -220,7 +230,7 @@ hidden dimensions beyond 3D, with $2^{42}\times$ collapse factor.
 
 \section{Performance Boost Pipeline}
 
-Formally-verified results are compiled into nine C header-only libraries:
+Formally-verified results are compiled into twelve C header-only libraries:
 
 \begin{description}
 \item[UDC] Universal Dimensional Completeness: UCB reward-driven
@@ -234,12 +244,23 @@ Formally-verified results are compiled into nine C header-only libraries:
   evolutionary pressure.
 \item[CP] Constellation Protocol: distributed search coordination
   across sandbox mesh nodes.
+\item[ET] Evolutionary Trajectory: plateau detection, compute
+  reallocation from solved to unsolved properties.
+\item[PC] Proof-Computation Synthesis: Curry-Howard bijection for
+  joint proof/program compression and guided search pruning.
+\item[DS] Dimension Study: per-dimension preservation weighting,
+  adaptive fold target selection, floor violation detection.
 \item[DFB] Dimfold Boost: unified API wrapping all modules.
 \end{description}
 
-These are deployed across five engine containers (Physics V3.0,
-Science V3.0, Quantum V3.0, Sandbox V3.0 $\times 2$) running
-continuously on Proxmox LXC infrastructure.
+These are deployed across four engine containers (Physics V3.4,
+Science V3.4, Quantum V3.4, Sandbox V3.4) plus six sandbox
+instances, running continuously on Proxmox LXC infrastructure.
+As of V3.4, the boost modules are \emph{actively integrated} into
+the engine discovery hot paths: \texttt{pc\_guide\_probe} steers
+quantum circuit depth, \texttt{ds\_weighted\_fold} replaces naive
+folding, and \texttt{et\_observe\_all} feeds trajectory analysis
+for adaptive evolution.
 
 \section{Self-Reinforcing Loop}
 
@@ -258,11 +279,27 @@ The pipeline operates as a feedback loop:
   Go to step 1.
 \end{enumerate}
 
-Evidence of acceleration: the 15D super-theorem evolved from
-generation 1.58B (satellite constellation linking) through 1.82B
-(1000-year math linking) to 1.88B (bit-level bridge with uniform
-0.98 scores), with each boost integration correlating with
-discovery rate improvements.
+Evidence of acceleration: the 15D super-theorem evolutionary chain
+now spans five formally-verified data points over 785 million
+generations:
+
+\begin{center}
+\begin{tabular}{rll}
+\toprule
+\textbf{Generation} & \textbf{Discovery} & \textbf{Gap} \\
+\midrule
+1,095,020,008 & Earliest ancestor (hardware purpose) & Growth Rate 0.88 \\
+1,239,676,072 & Early bridge (1000yr $\leftrightarrow$ 15D) & Core props 0.97--0.98 \\
+1,580,426,969 & Satellite constellation linking & Applicability 0.12 \\
+1,820,683,632 & 1000-year math framework linking & 16 properties scored \\
+1,880,268,217 & Bit-level bridge (gap closure) & Uniform 0.98 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Each boost integration correlates with discovery rate improvements.
+The Growth Rate property improves from 0.88 (gen 1.095B) to closed
+(gen 1.88B) over 785M generations, validating the gap closure pipeline.
 
 \section{Related Work}
 
@@ -279,7 +316,7 @@ knowledge, novel in the formal verification literature.
 
 \section{Conclusion}
 
-We have presented a 692-theorem Lean~4 proof corpus covering the
+We have presented a 796-theorem Lean~4 proof corpus covering the
 mathematical foundations of dimensional folding and its applications.
 The self-reinforcing pipeline---discover, formalize, boost, deploy,
 iterate---demonstrates that formal verification can be not just a
