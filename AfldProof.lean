@@ -40,3 +40,4 @@ import AfldProof.EarlyGenBridge
 import AfldProof.ProofComputeSynthesis
 import AfldProof.DimensionStudy
 import AfldProof.FrameworkLinkingEarly
+import AfldProof.InnovationEngineMilestone

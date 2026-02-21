@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.25.0"
+version: "5.26.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -158,6 +158,10 @@ keywords:
   - growth rate gap
   - 785M generation span
   - hardware purpose
+  - innovation engine
+  - cross domain bridge
+  - 8196D folding
+  - self reinforcing loop
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
