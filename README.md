@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**692 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**716 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -46,6 +46,7 @@ lossless dimensional folding, as implemented in
 | Basel Problem + Euler-Maclaurin Acceleration | `BaselConvergence.lean` | Proved |
 | Dark Matter Physics (45D simulation) | `DarkMatterPhysics.lean` | Proved |
 | Satellite Constellation Linking (15D→3D) | `SatelliteConstellationLinking.lean` | Proved |
+| Early-Gen Bit-Level Bridge (1.24B) | `EarlyGenBridge.lean` | Proved |
 
 ## Key Results
 
@@ -133,7 +134,8 @@ AfldProof/
 ├── BitLevelSolutionBridging.lean     — Construct #4586760: bit-level bridge, gap closure, gen 1.88B
 ├── BaselConvergence.lean             — Basel Problem: Σ1/k²=π²/6, Euler-Maclaurin 5→16 digit accel
 ├── DarkMatterPhysics.lean            — Dark Matter 45D: 27% budget, 42 hidden dims, 2^42 collapse
-└── SatelliteConstellationLinking.lean — Sat constellation: 15D→3D orbit folding, 4096× collapse
+├── SatelliteConstellationLinking.lean — Sat constellation: 15D→3D orbit folding, 4096× collapse
+└── EarlyGenBridge.lean               — Early 1.24B bridge: 640M-gen trajectory, pattern robustness
 ```
 
 ## Super Theorem Engine Bridge
