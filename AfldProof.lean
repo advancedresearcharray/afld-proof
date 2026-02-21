@@ -37,3 +37,4 @@ import AfldProof.BaselConvergence
 import AfldProof.DarkMatterPhysics
 import AfldProof.SatelliteConstellationLinking
 import AfldProof.EarlyGenBridge
+import AfldProof.ProofComputeSynthesis
