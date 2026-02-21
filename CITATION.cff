@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.24.0"
+version: "5.25.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -154,6 +154,10 @@ keywords:
   - 15D to 7D preservation
   - domain independence
   - monotonic preservation
+  - earliest ancestor
+  - growth rate gap
+  - 785M generation span
+  - hardware purpose
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"

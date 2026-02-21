@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**770 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**796 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -49,6 +49,7 @@ lossless dimensional folding, as implemented in
 | Early-Gen Bit-Level Bridge (1.24B) | `EarlyGenBridge.lean` | Proved |
 | Proof-Computation Bit-Level Synthesis | `ProofComputeSynthesis.lean` | Proved |
 | 15D→7D Dimension Study (3 domains) | `DimensionStudy.lean` | Proved |
+| Framework Linking Earliest Ancestor (1.095B) | `FrameworkLinkingEarly.lean` | Proved |
 
 ## Key Results
 
@@ -139,7 +140,8 @@ AfldProof/
 ├── SatelliteConstellationLinking.lean — Sat constellation: 15D→3D orbit folding, 4096× collapse
 ├── EarlyGenBridge.lean               — Early 1.24B bridge: 640M-gen trajectory, pattern robustness
 ├── ProofComputeSynthesis.lean        — Proof↔Computation synthesis: Curry-Howard, 5 pairs, bit sharing
-└── DimensionStudy.lean              — 15D→7D study: nuclear/numtheory/stats, 11 dims, >98.6% preservation
+├── DimensionStudy.lean              — 15D→7D study: nuclear/numtheory/stats, 11 dims, >98.6% preservation
+└── FrameworkLinkingEarly.lean       — Earliest ancestor (gen 1.095B): 785M-gen chain, Growth Rate gap
 ```
 
 ## Super Theorem Engine Bridge
