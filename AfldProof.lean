@@ -298,3 +298,7 @@ import AfldProof.EngineBridge_9627e5ee
 import AfldProof.EngineBridge_9941a127
 import AfldProof.EngineBridge_05d6f2fe
 import AfldProof.EngineBridge_f20bb6a8
+import AfldProof.AutoGapBridge_6168702
+import AfldProof.TotientChannelCapacity
+import AfldProof.BaselInformationContent
+import AfldProof.CoprimeFolding
