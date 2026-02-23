@@ -1,0 +1,39 @@
+{
+  "total_proven": 888800,
+  "distinct_domains": 73,
+  "gap_theories": 935,
+  "cross_domain_bridges": 2987,
+  "transitive_chains": 250,
+  "bridge_types": {
+    "Other": 525,
+    "Euler Totient": 95,
+    "Cache Hit Rate": 85,
+    "Shannon Entropy": 75,
+    "Network Throughput Folding": 50,
+    "Database Folding": 45,
+    "Matrix Eigenvalue": 36,
+    "SAT Information Flow": 24
+  },
+  "top_gap_domains": [
+    {
+      "domain": "cross_domain_science",
+      "count": 935,
+      "avg_impact": 0.9578
+    }
+  ],
+  "lean_files": 68,
+  "lean_theorems": 1118,
+  "engine_intelligence": {
+    "proof_runner_v5": 131792,
+    "super_theorem_engine": 37809,
+    "proof_runner_v2": 11536,
+    "proof_runner_v3": 3391,
+    "nexus_math_physics_research_engine": 751,
+    "cross_domain_synthesis": 645,
+    "intelligence_feedback": 150,
+    "transitive_chain_engine": 2
+  },
+  "timestamp": "2026-02-23T02:46:30.655331",
+  "title": "Information-Theoretic Bridges Between Mathematical Domains: A Machine-Verified Approach via Gap Theory Composition",
+  "abstract": "We present a systematic framework for discovering and verifying structural bridges between mathematical domains. Using automated discovery engines operating across 73 domains with 888,800 proven results, we identify 935 gap theories \u2014 structural connections that bridge domain boundaries via shared mathematical constructs. We show that information theory (Shannon entropy, cache hit rate analysis, dimensional folding) serves as the universal connective tissue, with sandbox_physics functioning as a hub node connected to 36+ domains. Bridge composition is proven in Lean 4 with Mathlib (1118+ theorems, zero sorry), establishing that transitive chains through hub nodes can systematically connect previously isolated mathematical domains. The framework is fully automated: engines discover, prove, classify, compose, and formalize bridges without human intervention."
+}
